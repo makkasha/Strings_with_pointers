@@ -1,0 +1,1 @@
+Strings_with_pointers
