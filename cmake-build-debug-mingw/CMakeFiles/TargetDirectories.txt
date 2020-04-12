@@ -1,0 +1,3 @@
+C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/cmake-build-debug-mingw/CMakeFiles/Strings_with_pointers.dir
+C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
