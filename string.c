@@ -4,31 +4,31 @@
 
 #include <stdio.h>
 
+void *ptr = NULL;
+void **pptr = NULL;
+
 int print_string(char* string) {
-    char *pc = NULL;
 
-    pc = string;
+    ptr = (void*)string;
 
-    while (*pc != 0) {
-        printf("%c", *pc);
-        pc += 1;
+    while (*(char*)ptr != 0) {
+        printf("%c", *(char*)ptr);
+        ptr += 1;
     }
     printf("\n");
     return 0;
 }
 
 int print_array_string(char** string, int length){
-    void *pc = NULL;
-    void **ppc = NULL;
 
-    ppc = (void**)string;
+    pptr = (void**)string;
 
     for (int i = 0; i < length; i++) {
-        ppc = (void**)string + i;
-        pc = *ppc;
-        while (*(char*)pc != 0) {
-            printf("%c", *(char*)pc);
-            pc += 1;
+        pptr = (void**)string + i;
+        ptr = *pptr;
+        while (*(char*)ptr != 0) {
+            printf("%c", *(char*)ptr);
+            ptr += 1;
         }
         if (i == (length - 1)) {
             printf("\n");
@@ -40,18 +40,17 @@ int print_array_string(char** string, int length){
 }
 
 int print_int_array(int* data, int length){
-    int* pi = NULL;
 
     for(int i = 0; i < length; i++){
-        pi = data + i;
-        printf("%d", *pi);
+        ptr = data + i;
+        printf("%d", *(int*)ptr);
         if(i == length - 1){
             printf("\n");
         }
         else{
             printf(", ");
         }
-        pi += 1;
+        ptr += 1;
     }
     return 0;
 }
