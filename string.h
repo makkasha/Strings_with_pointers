@@ -9,3 +9,4 @@
 
 int print_string(char *string);
 int print_array_string(char** string, int length);
+int print_int_array(int* data, int length);
