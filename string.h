@@ -8,4 +8,4 @@
 #endif //STRANDPTR_STRING_H
 
 int print_string(char *string);
-int print_array_string(char** string);
+int print_array_string(char** string, int length);

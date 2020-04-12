@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/string.c
+C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/main.c
 stdio.h
 -
+string.h
+C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/string.h
+
+C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/string.h
 
