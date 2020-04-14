@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/ed_string.c" "C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/cmake-build-debug-mingw/CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj"
   "C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/main.c" "C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/cmake-build-debug-mingw/CMakeFiles/Strings_with_pointers.dir/main.c.obj"
-  "C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/string.c" "C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/cmake-build-debug-mingw/CMakeFiles/Strings_with_pointers.dir/string.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

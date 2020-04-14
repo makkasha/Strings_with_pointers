@@ -69,29 +69,29 @@ CMakeFiles/Strings_with_pointers.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Strings_with_pointers.dir/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\main.c -o CMakeFiles\Strings_with_pointers.dir\main.c.s
 
-CMakeFiles/Strings_with_pointers.dir/string.c.obj: CMakeFiles/Strings_with_pointers.dir/flags.make
-CMakeFiles/Strings_with_pointers.dir/string.c.obj: ../string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Strings_with_pointers.dir/string.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Strings_with_pointers.dir\string.c.obj   -c C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\string.c
+CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj: CMakeFiles/Strings_with_pointers.dir/flags.make
+CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj: ../ed_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Strings_with_pointers.dir\ed_string.c.obj   -c C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\ed_string.c
 
-CMakeFiles/Strings_with_pointers.dir/string.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Strings_with_pointers.dir/string.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\string.c > CMakeFiles\Strings_with_pointers.dir\string.c.i
+CMakeFiles/Strings_with_pointers.dir/ed_string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Strings_with_pointers.dir/ed_string.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\ed_string.c > CMakeFiles\Strings_with_pointers.dir\ed_string.c.i
 
-CMakeFiles/Strings_with_pointers.dir/string.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Strings_with_pointers.dir/string.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\string.c -o CMakeFiles\Strings_with_pointers.dir\string.c.s
+CMakeFiles/Strings_with_pointers.dir/ed_string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Strings_with_pointers.dir/ed_string.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Akkash\OneDrive\CLionProjects\strings_and_pointers\Strings_with_pointers\ed_string.c -o CMakeFiles\Strings_with_pointers.dir\ed_string.c.s
 
 # Object files for target Strings_with_pointers
 Strings_with_pointers_OBJECTS = \
 "CMakeFiles/Strings_with_pointers.dir/main.c.obj" \
-"CMakeFiles/Strings_with_pointers.dir/string.c.obj"
+"CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj"
 
 # External object files for target Strings_with_pointers
 Strings_with_pointers_EXTERNAL_OBJECTS =
 
 Strings_with_pointers.exe: CMakeFiles/Strings_with_pointers.dir/main.c.obj
-Strings_with_pointers.exe: CMakeFiles/Strings_with_pointers.dir/string.c.obj
+Strings_with_pointers.exe: CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj
 Strings_with_pointers.exe: CMakeFiles/Strings_with_pointers.dir/build.make
 Strings_with_pointers.exe: CMakeFiles/Strings_with_pointers.dir/linklibs.rsp
 Strings_with_pointers.exe: CMakeFiles/Strings_with_pointers.dir/objects1.rsp

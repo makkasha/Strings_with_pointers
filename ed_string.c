@@ -1,8 +1,8 @@
-//
-// Created by Akkash on 4/12/2020.
-//
-
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define MAXSTRLEN 128
 
 void *ptr = NULL;
 void **pptr = NULL;
@@ -37,6 +37,7 @@ int print_array_string(char** string, int length){
         }
 
     }
+    return 0;
 }
 
 int print_int_array(int* data, int length){
@@ -53,4 +54,15 @@ int print_int_array(int* data, int length){
         ptr += 1;
     }
     return 0;
+}
+
+char* str_add_hello(char* string){
+    ptr = (char*)malloc(MAXSTRLEN);
+    *(char*)ptr = 0;
+
+    strcat(ptr, "Hello ");
+    strcat(ptr, string);
+    strcat(ptr, "!\n");
+
+    return ptr;
 }

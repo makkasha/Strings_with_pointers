@@ -122,6 +122,33 @@ Strings_with_pointers/fast:
 	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/build
 .PHONY : Strings_with_pointers/fast
 
+ed_string.obj: ed_string.c.obj
+
+.PHONY : ed_string.obj
+
+# target to build an object file
+ed_string.c.obj:
+	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj
+.PHONY : ed_string.c.obj
+
+ed_string.i: ed_string.c.i
+
+.PHONY : ed_string.i
+
+# target to preprocess a source file
+ed_string.c.i:
+	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/ed_string.c.i
+.PHONY : ed_string.c.i
+
+ed_string.s: ed_string.c.s
+
+.PHONY : ed_string.s
+
+# target to generate assembly for a file
+ed_string.c.s:
+	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/ed_string.c.s
+.PHONY : ed_string.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,33 +176,6 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/main.c.s
 .PHONY : main.c.s
 
-string.obj: string.c.obj
-
-.PHONY : string.obj
-
-# target to build an object file
-string.c.obj:
-	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/string.c.obj
-.PHONY : string.c.obj
-
-string.i: string.c.i
-
-.PHONY : string.i
-
-# target to preprocess a source file
-string.c.i:
-	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/string.c.i
-.PHONY : string.c.i
-
-string.s: string.c.s
-
-.PHONY : string.s
-
-# target to generate assembly for a file
-string.c.s:
-	$(MAKE) -f CMakeFiles\Strings_with_pointers.dir\build.make CMakeFiles/Strings_with_pointers.dir/string.c.s
-.PHONY : string.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +185,12 @@ help:
 	@echo ... Strings_with_pointers
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ed_string.obj
+	@echo ... ed_string.i
+	@echo ... ed_string.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... string.obj
-	@echo ... string.i
-	@echo ... string.s
 .PHONY : help
 
 

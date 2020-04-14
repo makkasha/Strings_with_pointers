@@ -74,13 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/ed_string.c">
+			<Option target="Strings_with_pointers"/>
+		</Unit>
+		<Unit filename="C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/ed_string.h">
+			<Option target="Strings_with_pointers"/>
+		</Unit>
 		<Unit filename="C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/main.c">
-			<Option target="Strings_with_pointers"/>
-		</Unit>
-		<Unit filename="C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/string.c">
-			<Option target="Strings_with_pointers"/>
-		</Unit>
-		<Unit filename="C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/string.h">
 			<Option target="Strings_with_pointers"/>
 		</Unit>
 		<Unit filename="C:/Users/Akkash/OneDrive/CLionProjects/strings_and_pointers/Strings_with_pointers/CMakeLists.txt">

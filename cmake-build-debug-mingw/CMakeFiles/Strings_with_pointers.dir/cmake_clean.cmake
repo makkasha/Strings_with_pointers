@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Strings_with_pointers.dir/ed_string.c.obj"
   "CMakeFiles/Strings_with_pointers.dir/main.c.obj"
-  "CMakeFiles/Strings_with_pointers.dir/string.c.obj"
   "Strings_with_pointers.exe"
   "Strings_with_pointers.exe.manifest"
   "Strings_with_pointers.pdb"
